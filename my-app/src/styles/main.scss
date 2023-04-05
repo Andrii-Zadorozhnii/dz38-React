@@ -1,0 +1,28 @@
+@import './reset.css';
+
+.header {
+    color: white;
+    font-family: sans-serif;
+    height: 50px;
+    background: purple;
+    box-shadow:  0px 0px 40px #bebebe,
+             0px 0px 40px purple;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-bottom: 50px;
+
+    &-button{
+        width: 30px;
+        background: inherit;
+        border: 0;
+        color: white;
+    }
+
+    &-links{
+        display: flex;
+        gap: 10px;
+    }
+}
