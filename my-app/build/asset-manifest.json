@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b59e6a23.css",
+    "main.js": "/static/js/main.6f6fa399.js",
+    "static/media/adminImg.jpeg": "/static/media/adminImg.e945f99593e454d95c7c.jpeg",
+    "static/media/AvatarMaker4.png": "/static/media/AvatarMaker4.c458d2386c4697355059.png",
+    "static/media/AvatarMaker9.png": "/static/media/AvatarMaker9.818e1d183184dd627216.png",
+    "static/media/AvatarMaker10.png": "/static/media/AvatarMaker10.3c54cec851f9ef46d45e.png",
+    "static/media/AvatarMaker1.png": "/static/media/AvatarMaker1.22bfd5a6b98a227c66ac.png",
+    "static/media/AvatarMaker3.png": "/static/media/AvatarMaker3.d125c1d62063630174dc.png",
+    "static/media/AvatarMaker2.png": "/static/media/AvatarMaker2.0bec4797a5ee1d5d1647.png",
+    "static/media/AvatarMaker11.png": "/static/media/AvatarMaker11.932ee0945093d84b34a5.png",
+    "static/media/AvatarMaker5.png": "/static/media/AvatarMaker5.b1f8410051ba3716d781.png",
+    "static/media/AvatarMaker8.png": "/static/media/AvatarMaker8.ef75354724571418dea3.png",
+    "static/media/AvatarMaker6.png": "/static/media/AvatarMaker6.19cd53c5203a87a13447.png",
+    "static/media/AvatarMaker12.png": "/static/media/AvatarMaker12.347f865e128b83eb6224.png",
+    "static/media/AvatarMaker7.png": "/static/media/AvatarMaker7.06804538840295c95777.png",
+    "static/media/dollar-white.svg": "/static/media/dollar-white.cbc66ad185868881a072cba8545bbe57.svg",
+    "static/media/dollar.svg": "/static/media/dollar.ad1bdfa5f0cfbe1141e5524784116c76.svg",
+    "static/media/user-group.svg": "/static/media/user-group.a9a4a10b4e21291abdf22d971eee07ca.svg",
+    "static/media/pictures.svg": "/static/media/pictures.f27f2e4d1c771111069a5d48062bc186.svg",
+    "static/media/account_circle.svg": "/static/media/account_circle.587b59e717be57d0509f9ae7536ef0b4.svg",
+    "index.html": "/index.html",
+    "static/media/rate_review-white.svg": "/static/media/rate_review-white.28dfff144bed8971d8f280e6f1f358e3.svg",
+    "static/media/rate_review.svg": "/static/media/rate_review.84c87c09277981982431929cf130b181.svg",
+    "static/media/reload.svg": "/static/media/reload.abac3faafb27b667a25a26ffca9cdc34.svg",
+    "static/media/dashboard.svg": "/static/media/dashboard.e9a7b743a5f081d47b25cd0ae8243c68.svg",
+    "static/media/0_cart.svg": "/static/media/0_cart.b74e9cc5dcfb96bf4bc6f44d1bbd0882.svg",
+    "static/media/0_user-add.svg": "/static/media/0_user-add.f9b073993280e9b712e6a3174eb5586c.svg",
+    "static/media/rateStar.svg": "/static/media/rateStar.735035030456beb5b784da3453c17dcb.svg",
+    "main.b59e6a23.css.map": "/static/css/main.b59e6a23.css.map",
+    "main.6f6fa399.js.map": "/static/js/main.6f6fa399.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b59e6a23.css",
+    "static/js/main.6f6fa399.js"
+  ]
+}
