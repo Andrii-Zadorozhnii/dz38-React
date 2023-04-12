@@ -1,7 +1,17 @@
-
+import Dashboard from "../images/dashboard.svg";
+import Sales from "../images/dollar.svg";
+import Catalog from "../images/pictures.svg";
+import Customers from "../images/user-group.svg";
+import Review from "../images/rate_review.svg";
 
 const menuItems = ["Dashboard", "Sales", "Catalog", "Customers", "Reviews"];
-const imagesMenuItems = ["account_circle", "icon-user-group", "icon-dashboard", "icon-dollar", "icon-pictures", "icon-rate_review", "icon-reload"];
+const imagesMenuItems = [
+  `${Dashboard}`,
+  `${Sales}`,
+  `${Catalog}`,
+  `${Customers}`,
+  `${Review}`,
+];
 
 // function Icon({ id, ...props }) {
 //     return (
@@ -28,23 +38,33 @@ const imagesMenuItems = ["account_circle", "icon-user-group", "icon-dashboard", 
 //
 // export default MenuList;
 
-
 function MenuList() {
-    const items = menuItems.map((item, index) => {
-        return (
-            <li key={index} style={{display: 'flex', marginBottom: '10px', width: '200px'}}>
-                <a href='/' style={{display: 'flex', marginBottom: '10px'}}>
-                    <img src={`../images/${imagesMenuItems[index]}.svg`} style={{marginLeft: "10px"}}/>
-                    <span
-                        style={{marginLeft: '10px'}}>{item}
-                    </span>
-                </a>
-            </li>
-        );
-    });
+  const items = menuItems.map((item, index) => {
+    return (
+      <li
+        key={index}
+        style={{ display: "flex", alignItems:"center", marginBottom: "10px", width: "200px" }}
+      >
+        <a href="/" style={{ display: "flex", marginBottom: "10px" }}>
+          <img
+            src={`${imagesMenuItems[index]}`}
+            style={{ marginLeft: "10px" }}
+            alt="img"
+          />
+          <p style={{ margin: " auto 10px" }}>{item}</p>
+        </a>
+      </li>
+    );
+  });
 
-    return <ul>{items}</ul>;
+  //   function showSibeMenu(){
+  //     document.querySelector("item").addEventListener("click", () => {
+  //         <ul style={{ display: "block" }}>{items}</ul>;
+  //       });
+  //   }
+  //   showSibeMenu();
+
+  return <ul style={{ display: "block" }}>{items}</ul>;
 }
 
 export default MenuList;
-
