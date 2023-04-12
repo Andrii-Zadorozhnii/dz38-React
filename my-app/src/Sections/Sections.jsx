@@ -15,7 +15,7 @@ const headerText = [
   "Pending Reviews",
   "New Customers",
 ];
-const amount = [1385, 12, 3, 9];
+const amount = ["1385 $US", 12, 3, 9];
 
 function Sections() {
 
@@ -65,10 +65,10 @@ function Sections() {
           />
         </div>
         <div className="someText" style={{ margin: "auto 0" }}>
-          <h2 className="someText-header" style={{ marginBottom: "15px" }}>
+          <h2 className="someText-header" style={{ marginBottom: "15px",color:'gray' }}>
             {text}
           </h2>
-          <p className="someText-amount">{amount[index]}</p>
+          <p className="someText-amount" style={{fontSize:'25px'}}>{amount[index]}</p>
         </div>
       </div>
     );
