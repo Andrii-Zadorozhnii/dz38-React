@@ -2,6 +2,8 @@ import Dollar from "./images/dollar-white.svg";
 import Review from "./images/rate_review-white.svg";
 import Cart from './images/0_cart.svg';
 import NewCustomer from "./images/0_user-add.svg";
+import { stylesheet } from "emmet";
+
 
 const images = [Dollar, Cart, Review, NewCustomer];
 
@@ -16,10 +18,16 @@ const headerText = [
 const amount = [1385, 12, 3, 9];
 
 function Sections() {
+
+  const showBoxClick = () => {
+    stylesheet.style.zIndex ='-1';
+    console.log("hello");
+  };
+
   const boxes = headerText.map((text, index) => {
     return (
       <div
-        className={`box-${index}`}
+        className={`box-${index+1}`}
         key={index}
         style={{
           width: "20%",

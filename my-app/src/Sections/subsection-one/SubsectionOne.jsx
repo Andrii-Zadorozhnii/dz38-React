@@ -8,6 +8,7 @@ function SubsectionOne (){
             height: 'content-fit',
             backgroundColor: 'white',
             border: '1px solid gray',
+            borderBottom: "2px solid gray",
             borderRadius: '10px',
         }}>
             <div className="adminDemo-img" style={{padding:'10px'}}>
